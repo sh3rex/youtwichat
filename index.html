@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Stream Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button id="toggleMenuButton" aria-expanded="false">☰</button>
+
+    <div class="menu">
+        <div class="input-container" id="inputContainer">
+            <input type="text" id="youtubeUrl" placeholder="Cole a URL do vídeo do YouTube aqui">
+            <input type="text" id="twitchChannel" placeholder="Nome ou URL do canal da Twitch">
+            <button id="loadButton">Carregar</button>
+            
+
+            <hr class="menu-divider">
+            
+
+            <button id="aboutButton">Sobre</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="video-player" id="videoPlayer">
+
+        </div>
+        <div class="chat" id="chat">
+
+        </div>
+    </div>
+    
+
+    <div id="aboutPopup" class="popup">
+        <div class="popup-content">
+            <span id="closePopup" class="close-btn">&times;</span>
+            <p>Este site foi desenvolvido para melhorar a experiência do usuário, permitindo usufruir da qualidade de transmissão ao vivo do youtube, juntamente com o chat interativo da twitch.</p></br>
+            <button id="closeAboutPopup">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
