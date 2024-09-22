@@ -55,11 +55,9 @@ function validateAndLoad() {
     document.getElementById('twitchChannel').value = '';
 }
 
-
 document.getElementById('aboutButton').addEventListener('click', function() {
     document.getElementById('aboutPopup').style.display = 'block';
 });
-
 
 document.getElementById('closePopup').addEventListener('click', function() {
     document.getElementById('aboutPopup').style.display = 'none';
@@ -69,9 +67,7 @@ document.getElementById('closeAboutPopup').addEventListener('click', function() 
     document.getElementById('aboutPopup').style.display = 'none';
 });
 
-
 document.getElementById('loadButton').addEventListener('click', validateAndLoad);
-
 
 document.getElementById('youtubeUrl').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
