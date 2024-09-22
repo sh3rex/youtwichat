@@ -42,7 +42,7 @@ function validateAndLoad() {
             height="100%" 
             width="100%" 
             frameborder="0" 
-            scrolling="no"  <!-- Isso remove o scroll -->
+            scrolling="no"
             sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-modals">
     </iframe>`;
 
